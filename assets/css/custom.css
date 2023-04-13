@@ -1,0 +1,74 @@
+:root {
+    --color-one: #7fbfe9;
+    --color-two: #008ec3;
+    --color-three: #005e8c;
+    --color-four: #eb6e22;
+    --color-four-light: #fff0e7;
+    --color-five: #2f2a60;
+    --color-six: #bfbfbf;
+    --color-white: #ffffff;
+}
+
+strong,
+.notification strong {
+    color: var(--color-three);
+}
+
+sup {
+    color: var(--color-three);
+    font-weight: 700;
+}
+
+img {
+    border-radius: 4px
+}
+
+iframe {
+    border-radius: 8px;
+}
+
+.hero h1 {
+    color: var(--color-white);
+    font-family: 'Secular One', sans-serif;
+}
+
+.content h1,
+.content h2, 
+.content h3, 
+.content h4, 
+.content h5, 
+.content h6 {
+    color: var(--color-three);
+}
+
+.message.is-info {
+    background-color: var(--color-four-light);
+}
+
+.message.is-info .message-header {
+    background-color: var(--color-four);
+    color:#fff
+}
+
+.message.is-info .message-body {
+    border-color: var(--color-four);
+    color: #eb6e22;
+}
+
+figure.video {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.title.is-0 {
+    font-size: 6rem;
+}
+
+.content figure figcaption {
+    border-left: solid 2px var(--color-six);
+    text-align: left;
+}
+
+.content figure figcaption p {
+    margin-left: 1%;
+}
