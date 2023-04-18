@@ -47,21 +47,17 @@ iframe {
 
 .message.is-info .message-header {
     background-color: var(--color-four);
-    color:#fff
+    color:var(--color-white)
 }
 
 .message.is-info .message-body {
     border-color: var(--color-four);
-    color: #eb6e22;
+    color: var(--color-four);
 }
 
 figure.video {
     margin-left: 0;
     margin-right: 0;
-}
-
-.title.is-0 {
-    font-size: 6rem;
 }
 
 .content figure figcaption {
@@ -72,3 +68,43 @@ figure.video {
 .content figure figcaption p {
     margin-left: 1%;
 }
+
+.hero-body {
+    justify-content: center;
+}
+
+.modal-content {
+    width: 96%;
+}
+
+.js-modal-trigger {
+    cursor: pointer;
+}
+
+.js-modal-trigger[data-target="modal-js-example-1"],
+.js-modal-trigger[data-target="modal-js-example-2"],
+.js-modal-trigger[data-target="modal-js-example-3"],
+.js-modal-trigger[data-target="modal-js-example-4"],
+.js-modal-trigger[data-target="modal-js-example-5"],
+.js-modal-trigger[data-target="modal-js-example-6"],
+.js-modal-trigger[data-target="modal-js-example-7"],
+.js-modal-trigger[data-target="modal-js-example-8"] {
+    margin: auto;
+    width: 70%;
+}
+
+blockquote.citacao {
+    margin-left: 20%;
+}
+
+::marker {
+    color: var(--color-four)
+}
+
+.is-uppercase {
+    text-transform: uppercase;
+}
+
+/* .is-border-right {
+    border-right: var(--color-four) solid 1px;
+} */
