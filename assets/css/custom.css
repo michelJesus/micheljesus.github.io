@@ -125,3 +125,8 @@ blockquote.citacao {
 .image.is-16by9 {
     padding-top: 52.25%;
 }
+
+.content table thead th {
+    background-color: var(--color-four);
+    color: var(--color-white);
+}
