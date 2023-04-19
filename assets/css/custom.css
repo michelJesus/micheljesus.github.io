@@ -108,3 +108,20 @@ blockquote.citacao {
 /* .is-border-right {
     border-right: var(--color-four) solid 1px;
 } */
+
+.box {
+    padding: 0;
+}
+
+.box figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.quebra-palavra {
+    word-break: break-word;
+}
+
+.image.is-16by9 {
+    padding-top: 52.25%;
+}
