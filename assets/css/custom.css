@@ -7,6 +7,7 @@
     --color-five: #2f2a60;
     --color-six: #bfbfbf;
     --color-white: #ffffff;
+    --color-danger: #cc0f35;
 }
 
 strong,
@@ -129,4 +130,31 @@ blockquote.citacao {
 .content table thead th {
     background-color: var(--color-four);
     color: var(--color-white);
+}
+
+.notification.is-info.is-light {
+    background-color: var(--color-white);
+}
+
+.aspas {
+    padding: 0 5%;
+}
+.aspas::before,
+.aspas::after {
+    content: "";
+    display: flex;
+    width: 48px;
+    height: 48px;
+}
+.aspas::before {
+    background: url(../image/quote-right-solid.svg) no-repeat right;
+    width: 100%;
+    margin-right: 5%;
+}
+.aspas::after {
+    background: url(../image/quote-left-solid.svg) no-repeat left;
+}
+
+.notification.is-danger.is-light strong {
+    color: var(--color-danger);
 }
