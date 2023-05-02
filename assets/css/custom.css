@@ -89,9 +89,45 @@ figure.video {
 .js-modal-trigger[data-target="modal-js-example-5"],
 .js-modal-trigger[data-target="modal-js-example-6"],
 .js-modal-trigger[data-target="modal-js-example-7"],
-.js-modal-trigger[data-target="modal-js-example-8"] {
+.js-modal-trigger[data-target="modal-js-example-8"],
+.js-modal-trigger[data-target="modal-js-example-9"],
+.js-modal-trigger[data-target="modal-js-example-10"],
+.js-modal-trigger[data-target="modal-js-example-11"],
+.js-modal-trigger[data-target="modal-js-example-12"],
+.js-modal-trigger[data-target="modal-js-example-13"],
+.js-modal-trigger[data-target="modal-js-example-14"],
+.js-modal-trigger[data-target="modal-js-example-15"],
+.js-modal-trigger[data-target="modal-js-example-16"],
+.js-modal-trigger[data-target="modal-js-example-17"],
+.js-modal-trigger[data-target="modal-js-example-18"],
+.js-modal-trigger[data-target="modal-js-example-19"],
+.js-modal-trigger[data-target="modal-js-example-20"] {
     margin: auto;
     width: 70%;
+}
+
+.js-modal-trigger[data-target="modal-video-1"],
+.js-modal-trigger[data-target="modal-video-2"],
+.js-modal-trigger[data-target="modal-video-3"],
+.js-modal-trigger[data-target="modal-video-4"],
+.js-modal-trigger[data-target="modal-video-5"],
+.js-modal-trigger[data-target="modal-video-6"],
+.js-modal-trigger[data-target="modal-video-7"],
+.js-modal-trigger[data-target="modal-video-8"],
+.js-modal-trigger[data-target="modal-video-9"],
+.js-modal-trigger[data-target="modal-video-10"],
+.js-modal-trigger[data-target="modal-video-11"],
+.js-modal-trigger[data-target="modal-video-12"],
+.js-modal-trigger[data-target="modal-video-13"],
+.js-modal-trigger[data-target="modal-video-14"],
+.js-modal-trigger[data-target="modal-video-15"],
+.js-modal-trigger[data-target="modal-video-16"],
+.js-modal-trigger[data-target="modal-video-17"],
+.js-modal-trigger[data-target="modal-video-18"],
+.js-modal-trigger[data-target="modal-video-19"],
+.js-modal-trigger[data-target="modal-video-20"] {
+    margin: auto;
+    width: 90%;
 }
 
 blockquote.citacao {
@@ -157,4 +193,23 @@ blockquote.citacao {
 
 .notification.is-danger.is-light strong {
     color: var(--color-danger);
+}
+
+.image__capa___video {
+    cursor: pointer;
+    opacity: .9;
+}
+.image__capa___video:hover {
+    opacity: 1;
+}
+.image__capa___video::before {
+    content: "";
+    background: url(../image/circle-play-regular.svg) no-repeat center;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    position: absolute;
+    top: calc(50% - 32px);
+    left: calc(50% - 32px);
+    z-index: 1;
 }
