@@ -22,8 +22,12 @@ sup {
 
 img {
     border-radius: 4px;
-    max-width: 720px;
+    max-width: 960px;
     width: 100%;
+}
+
+figure.image__capa___video img {
+    max-width: 100%;
 }
 
 iframe {
