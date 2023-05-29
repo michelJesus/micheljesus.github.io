@@ -219,3 +219,20 @@ blockquote.citacao {
     left: calc(50% - 32px);
     z-index: 1;
 }
+
+.title.is-1 {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 769px), print {
+    .hero.is-medium .hero-body {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section.is-medium {
+        padding-top: 3rem;
+    }
+}
