@@ -58,8 +58,9 @@ iframe {
 }
 
 .message.is-info .message-body {
-    border-color: var(--color-four);
-    color: var(--color-four);
+    border: 0;
+    /* border-color: var(--color-four);
+    color: var(--color-four); */
 }
 
 figure.video {
@@ -82,6 +83,7 @@ figure.video {
 
 .modal-content {
     width: 96%;
+    max-width: 1080px;
 }
 
 .js-modal-trigger {
@@ -137,7 +139,7 @@ figure.video {
 }
 
 blockquote.citacao {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 ::marker {
@@ -154,6 +156,7 @@ blockquote.citacao {
 
 .box {
     padding: 0;
+    background-color: transparent;
 }
 
 .box figure {
@@ -234,5 +237,12 @@ blockquote.citacao {
 @media screen and (min-width: 1024px) {
     .section.is-medium {
         padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 375px) { 
+    .content figure {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
