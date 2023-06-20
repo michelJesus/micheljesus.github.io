@@ -247,7 +247,7 @@ blockquote.citacao {
     }
 }
 
-button {
+.button__video {
     border: solid 1px #005e8c !important;
     width: max-content !important;
     color: #005e8c !important;
