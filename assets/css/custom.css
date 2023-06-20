@@ -246,3 +246,9 @@ blockquote.citacao {
         margin-right: 0;
     }
 }
+
+button {
+    border: solid 1px #005e8c !important;
+    width: max-content !important;
+    color: #005e8c !important;
+}
