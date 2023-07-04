@@ -252,3 +252,38 @@ blockquote.citacao {
     width: max-content !important;
     color: #005e8c !important;
 }
+
+.message.message__custom {
+    background-color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.message-body.message-body__custom {
+    border-width: 0;
+    padding-left: 4%;
+}
+
+.message-body.message-body__custom::after,
+.message-body.message-body__custom::before {
+    content: "";
+    width: 60px;
+    border-color: #005e8c;
+    height: 60px;
+    display: flex;
+    position: absolute;
+}
+
+.message-body.message-body__custom::after {
+    /* bottom: 1px; */
+    border-bottom: solid;
+    border-right: solid;
+    right: 0;
+}
+
+.message-body.message-body__custom::before {
+    border-top: solid;
+    border-left: solid;
+    left: 0px;
+    margin-top: -4%;
+}
